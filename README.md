@@ -28,3 +28,10 @@ Doctor Gym identificada como primeira academia usuária por confirmação do fun
 - IDs sem duplicação. Testes adicionais de celular real, leitores de tela, Safari e Edge continuam recomendados antes de publicação.
 
 Nenhum código do player Windows foi alterado. Não houve publicação no domínio, mudança de DNS, cobrança ou cadastro externo.
+
+## Publicação
+
+A versão inicial foi publicada em 2026-09-17 no GitHub Pages. Enquanto o DNS da Hostinger não
+for configurado, o endereço funcional é `https://kleiferdeliz.github.io/gymvoice-site/`.
+O domínio `gymvoice.com.br` deve ser ligado somente depois dos registros documentados em
+`../planejamento/publicacao-site-2026-09-17.md` propagarem.
