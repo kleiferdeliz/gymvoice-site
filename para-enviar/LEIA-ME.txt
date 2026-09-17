@@ -1,0 +1,15 @@
+GYMVOICE · PRÉVIA PARA AVALIAÇÃO
+
+Opção mais fácil no celular:
+- abra GymVoice-apresentacao.pdf.
+
+Versão interativa no computador:
+1. extraia o arquivo ZIP;
+2. abra ABRIR-GYMVOICE.html no Chrome ou Edge;
+3. use os botões de áudio e o cadastro demonstrativo.
+
+Esta é uma apresentação local. Ela não cria conta, não envia dados e não realiza cobrança.
+Os botões de cadastro mostram apenas como poderá ser a experiência futura.
+
+Se o aplicativo de mensagens bloquear o HTML, envie o ZIP sem extrair. A outra pessoa deve
+baixar o ZIP, extrair e abrir o HTML pelo navegador.
