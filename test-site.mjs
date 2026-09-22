@@ -16,6 +16,9 @@ check(index.includes('Programa para Windows'), 'Descrição Programa para Window
 check(index.includes('R$ 9,90') && index.includes('R$ 49,90'), 'Oferta comercial incompleta.');
 check(index.includes('assets/gymvoice-programa-windows.webp'), 'Captura do programa ausente.');
 check(/alt="[^"]*programa GymVoice[^"]*"/.test(index), 'Texto alternativo da captura ausente.');
+check(index.includes('width="1280" height="788"'), 'Dimensões naturais da captura não foram preservadas.');
+check(index.includes('.product-frame img{width:100%;height:auto;'), 'Captura pode perder a proporção responsiva.');
+check(index.includes('toque ou clique para ampliar'), 'Orientação para ampliar a captura ausente.');
 check(index.includes('Seus próprios MP3'), 'Diferencial de locuções próprias ausente.');
 check(index.includes('cadastro demonstrativo') || index.includes('cadastro é demonstrativo'), 'Aviso de cadastro demonstrativo ausente.');
 check(!index.includes('../output/') && !preview.includes('../output/'), 'Caminho legado de áudio encontrado.');

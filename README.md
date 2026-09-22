@@ -34,6 +34,7 @@ Nenhum código do player Windows foi alterado nessa validação. Não houve muda
 
 - `node build-preview.mjs`, `node test-site.mjs` e `scripts/validate-brand-assets.ps1`: aprovados.
 - Chrome desktop em 1366 px e breakpoint móvel em 390 px: sem overflow horizontal.
+- Captura do programa preservando a proporção natural de 1280 × 788 no desktop e no celular.
 - Captura real carregada e três MP3 públicos respondendo com HTTP 200.
 - Demonstração pública: música reduzida para 24%, locução reproduzida e volume restaurado para 72%.
 - Amostra individual de hidratação iniciada e interrompida sem erro.
