@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve, relative, extname, isAbsolute } from 'node:path';
 const root = fileURLToPath(new URL('.', import.meta.url));
-const mime = { '.html': 'text/html; charset=utf-8', '.mp3': 'audio/mpeg', '.svg': 'image/svg+xml' };
+const mime = { '.html': 'text/html; charset=utf-8', '.mp3': 'audio/mpeg', '.svg': 'image/svg+xml', '.webp': 'image/webp' };
 http.createServer(async (req, res) => {
   try {
     if (!['GET', 'HEAD'].includes(req.method)) { res.writeHead(405); res.end(); return; }

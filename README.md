@@ -1,6 +1,6 @@
 # Landing GymVoice · prévia local
 
-Criada em 2026-09-17. Abra `gymvoice-preview.html` no Chrome ou Edge: o HTML único contém CSS, JavaScript e três MP3. Pode ser enviado como arquivo, sem a pasta assets. Alguns visualizadores de mensagens bloqueiam scripts; baixar e abrir no navegador.
+Criada em 2026-09-17 e redesenhada em 2026-09-22. Abra `gymvoice-preview.html` no Chrome: o HTML único contém CSS, JavaScript, três MP3 e a captura real do programa. Pode ser enviado como arquivo, sem a pasta `assets`. Alguns visualizadores de mensagens bloqueiam scripts; baixar e abrir no navegador.
 
 Fonte editável: `index.html` + `assets/`. Após alterar, executar `node build-preview.mjs` para regenerar o arquivo compartilhável. Para servir localmente: `node serve.mjs`, depois abrir `http://127.0.0.1:4317`. Servidor restrito ao localhost; não é infraestrutura de produção.
 
@@ -9,7 +9,8 @@ Fonte editável: `index.html` + `assets/`. Após alterar, executar `node build-p
 - Navegação, FAQ, transcrições e botões.
 - Três amostras reais da biblioteca própria Cedar, geradas anteriormente; sem chamada de API ou custo de geração na página.
 - Demonstração Web Audio com trilha sintética ilustrativa, redução e restauração; isso não controla apps externos e não substitui teste do player Windows.
-- Cadastro demonstrativo em três passos, validação básica e sugestões determinísticas locais. Não é IA ao vivo.
+- Captura real do GymVoice 1.2.2 e apresentação do uso de locuções próprias em MP3.
+- Cadastro demonstrativo com validação básica. Não é IA ao vivo.
 - Dados descartados ao fechar o modal, sem gravação no navegador ou envio ao servidor. Use dados fictícios para testar.
 
 ## O que não está implementado
@@ -28,6 +29,11 @@ Doctor Gym identificada como primeira academia usuária por confirmação do fun
 - IDs sem duplicação. Testes adicionais de celular real, leitores de tela, Safari e Edge continuam recomendados antes de publicação.
 
 Nenhum código do player Windows foi alterado. Não houve publicação no domínio, mudança de DNS, cobrança ou cadastro externo.
+
+## Verificação atual
+
+Executar `node build-preview.mjs` e depois `node test-site.mjs`. A validação confere CTA, oferta,
+captura, referências dos três MP3, IDs duplicados e incorporação dos ativos na prévia de arquivo único.
 
 ## Publicação
 
