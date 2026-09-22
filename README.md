@@ -28,16 +28,20 @@ Doctor Gym identificada como primeira academia usuária por confirmação do fun
 - Áudio: ciclo da demonstração concluído até a mensagem final; redução observada e retorno ao estado inicial. Arquivos de hidratação/organização decodificados; organização reproduzindo sem erro de mídia. Sem erros/warnings de JavaScript na leitura realizada.
 - IDs sem duplicação. Testes adicionais de celular real, leitores de tela, Safari e Edge continuam recomendados antes de publicação.
 
-Nenhum código do player Windows foi alterado. Não houve publicação no domínio, mudança de DNS, cobrança ou cadastro externo.
+Nenhum código do player Windows foi alterado nessa validação. Não houve mudança de DNS, cobrança ou cadastro externo.
 
-## Verificação atual
+## Verificação em 2026-09-22
 
-Executar `node build-preview.mjs` e depois `node test-site.mjs`. A validação confere CTA, oferta,
-captura, referências dos três MP3, IDs duplicados e incorporação dos ativos na prévia de arquivo único.
+- `node build-preview.mjs`, `node test-site.mjs` e `scripts/validate-brand-assets.ps1`: aprovados.
+- Chrome desktop em 1366 px e breakpoint móvel em 390 px: sem overflow horizontal.
+- Captura real carregada e três MP3 públicos respondendo com HTTP 200.
+- Demonstração pública: música reduzida para 24%, locução reproduzida e volume restaurado para 72%.
+- Amostra individual de hidratação iniciada e interrompida sem erro.
 
 ## Publicação
 
-A versão inicial foi publicada em 2026-09-17 no GitHub Pages. Enquanto o DNS da Hostinger não
+A versão inicial foi publicada em 2026-09-17 e o novo design em 2026-09-22 no GitHub Pages.
+Enquanto o DNS da Hostinger não
 for configurado, o endereço funcional é `https://kleiferdeliz.github.io/gymvoice-site/`.
 O domínio `gymvoice.com.br` deve ser ligado somente depois dos registros documentados em
 `../planejamento/publicacao-site-2026-09-17.md` propagarem.
